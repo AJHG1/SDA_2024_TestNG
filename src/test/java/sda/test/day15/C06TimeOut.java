@@ -5,7 +5,7 @@ public class C06TimeOut {
 
 // The time out sets the maximum execution time for a method.
 // If the time out is exceeded, the test throws an exception at the point where it was interrupted, and exits the method.
-
+//
     @Test(timeOut = 400)
     void test1() throws InterruptedException {
         System.out.println("test is starting");

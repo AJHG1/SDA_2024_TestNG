@@ -17,7 +17,7 @@ public class C05Enabled {
     void test2() {
         System.out.println("test2");
     }
-
+//
     @Test(enabled = false)
     void test3() {
         System.out.println("test3");
