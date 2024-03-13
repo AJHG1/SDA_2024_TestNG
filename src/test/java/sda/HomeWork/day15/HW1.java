@@ -1,16 +1,14 @@
 package sda.HomeWork.day15;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 import sda.utilites.TestBase;
 
 import static org.testng.Assert.assertTrue;
 
-public class day15_HW1 extends TestBase {
+public class HW1 extends TestBase {
 
     /*
 Test Case1: Positive Login Test
