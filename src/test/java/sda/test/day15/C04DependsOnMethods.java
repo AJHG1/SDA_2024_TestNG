@@ -1,4 +1,5 @@
 package sda.tests.day15;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -9,23 +10,26 @@ public class C04DependsOnMethods {
 // If the connected test is not PASSED, the dependent test will not run (ignore).
 
     @Test
-    void startCar(){
+    void startCar() {
         System.out.println("start the car"); // This test is an INDEPENDENT test
     }
 
-    @Test(dependsOnMethods = {"startCar"}) // This test depends on the successful execution of the "startCar" test
-    void driveCar(){
+    @Test(dependsOnMethods = {"startCar"})
+        // This test depends on the successful execution of the "startCar" test
+    void driveCar() {
         System.out.println("drive the car");
     }
 
-    @Test(dependsOnMethods = {"parkCar"}) // This test depends on the successful execution of the "parkCar" test
-    void stopCar(){
+    @Test(dependsOnMethods = {"parkCar"})
+        // This test depends on the successful execution of the "parkCar" test
+    void stopCar() {
         System.out.println("stop the car");
 
     }
 
-    @Test(dependsOnMethods = {"driveCar"}) // This test depends on the successful execution of the "driveCar" test
-    void parkCar(){
+    @Test(dependsOnMethods = {"driveCar"})
+        // This test depends on the successful execution of the "driveCar" test
+    void parkCar() {
         System.out.println("park the car");
 
     }

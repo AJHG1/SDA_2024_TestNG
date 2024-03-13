@@ -1,9 +1,10 @@
 package sda.test.day15;
+
 import org.testng.annotations.Test;
 
 public class C06TimeOut {
 
-// The time out sets the maximum execution time for a method.
+    // The time out sets the maximum execution time for a method.
 // If the time out is exceeded, the test throws an exception at the point where it was interrupted, and exits the method.
 //
     @Test(timeOut = 400)

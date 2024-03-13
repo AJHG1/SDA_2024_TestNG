@@ -18,7 +18,7 @@ public class HW3 extends TestBase {
     //Verify error message text is Your password is invalid!
 
     @Test
-    public void test(){
+    public void test() {
 
         //Open page https://practicetestautomation.com/practice-test-login/
         driver.get("https://practicetestautomation.com/practice-test-login/");
@@ -43,7 +43,7 @@ public class HW3 extends TestBase {
 
         //Verify error message text is Your password is invalid!
         String errormassage = error.getText();
-        Assert.assertEquals("Your password is invalid!" ,errormassage );
+        Assert.assertEquals("Your password is invalid!", errormassage);
 //
     }
 }

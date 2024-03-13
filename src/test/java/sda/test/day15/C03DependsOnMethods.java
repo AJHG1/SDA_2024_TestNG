@@ -30,8 +30,8 @@ public class C03DependsOnMethods {
         System.out.println("Sign in test was succesfull");
     }
 
-    @Test(dependsOnMethods ={"loginTest"})
-    public void Changepasswordtest(){
+    @Test(dependsOnMethods = {"loginTest"})
+    public void Changepasswordtest() {
 
         System.out.println("password changed...");
     }
