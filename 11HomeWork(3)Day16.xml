@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+    <test name="login">
+        <parameter name="username" value="student">
+        </parameter>
+        <parameter name="password" value="Password123">
+        </parameter>
+        <classes>
+            <class name="sda.HomeWork.day16.HW3">
+                <methods>
+                    <include name="login">
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+     <!--                   <-->
+    <!---->
+    <test name="wrongUsernameAndCorrectPassword">
+        <parameter name="username" value="abdulaziz">
+        </parameter>
+        <parameter name="password" value="Password123">
+        </parameter>
+        <classes>
+            <class name="sda.HomeWork.day16.HW3">
+                <methods>
+                    <include name="wrongUsernameAndCorrectPassword">
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+<!--                               -->
+    <test name="wrongUsernameAndPassword">
+        <parameter name="username" value="sda2126">
+        </parameter>
+        <parameter name="password" value="abdulaziz">
+        </parameter>
+        <classes>
+            <class name="sda.HomeWork.day16.HW3">
+                <methods>
+                    <include name="wrongUsernameAndPassword">
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <!--                               -->
+    <test name="EmptyUserNameCorrectPassword">
+        <parameter name="username" value=" ">
+        </parameter>
+        <parameter name="password" value="Password123">
+        </parameter>
+        <classes>
+            <class name="sda.HomeWork.day16.HW3">
+                <methods>
+                    <include name="EmptyUserNameCorrectPassword">
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
+
+        <!-- To add comments: -->
+        <!-- With an XML file, we can run specific tests, packages, classes, or test methods from our project.
+            To achieve this, we need to write all the tests that will run according to the test hierarchy in XML format.
+            If we need to create multiple hierarchies to access all the desired tests,
+            we must start the subsequent hierarchies from the appropriate breakpoint.
+
+            If we need to create multiple hierarchies within a test,
+            we can identify a suitable breakpoint and rebuild the hierarchy from there.
+        -->

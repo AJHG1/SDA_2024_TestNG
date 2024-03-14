@@ -17,8 +17,8 @@ public class HW1 extends TestBase {
 //    Run tests from XML file.
 
     @Test
-    @Parameters("kayword")
-    public void test1() {
+    @Parameters("as")
+    public void homwWork2() {
 
         //    Go to URL: https://www.google.com
         driver.get("https://www.google.com");
@@ -28,7 +28,7 @@ public class HW1 extends TestBase {
         search.click();
         search.sendKeys("Selenium" + Keys.ENTER);
 
-//    Assert get text result est that the result text contains the searched Word.
+    //    Assert get text result est that the result text contains the searched Word.
         WebElement as = driver.findElement(By.xpath("//*[@id='rcnt']"));
         String a = as.getText();
         Assert.assertTrue(a.contains("Selenium"));
