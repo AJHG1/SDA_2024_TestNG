@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import sda.utilites.TestBase;
 
@@ -16,6 +17,7 @@ public class HW1 extends TestBase {
 //    Run tests from XML file.
 
     @Test
+    @Parameters("kayword")
     public void test1() {
 
         //    Go to URL: https://www.google.com
@@ -33,6 +35,7 @@ public class HW1 extends TestBase {
     }
 
     @Test
+    @Parameters("word")
     public void test2() {
 
         //    Go to URL: https://www.google.com
