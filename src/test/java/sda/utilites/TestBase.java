@@ -35,7 +35,7 @@ public class TestBase {
     public void afterMethod() {
         if (driver != null) {
 
-            //    driver.quit();
+            driver.quit();
             driver = null;
         }
 

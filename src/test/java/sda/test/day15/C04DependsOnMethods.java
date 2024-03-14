@@ -1,4 +1,4 @@
-package sda.tests.day15;
+package sda.test.day15;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;

@@ -15,6 +15,8 @@ public class C01TestNgAnnotations {
     @BeforeGroups-@AfterGroups: Runs before/after all test methods in a test class. Runs only once.
     @BeforeMethod-@AfterMethod: Runs before/after each test method.
     */
+
+
     /*
     Create a class.
     Create 3 test methods.

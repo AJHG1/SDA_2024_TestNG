@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+    <test name="smoke Test ">
+
+        <groups>
+            <run>
+                <include name="smoke">
+
+
+                </include>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="sda.test.day16.C02XMLFileGroups">
+
+            </class>
+        </classes>
+    </test>
+
+    <test name="regression test">
+        <groups>
+            <run>
+                <include name="regression">
+
+                </include>
+            </run>
+        </groups>
+        <classes>
+            <class name="sda.test.day16.C02XMLFileGroups">
+
+            </class>
+        </classes>
+
+    </test>
+    <test name="sanity Test ">
+        <groups>
+            <run>
+                <include name="sanity">
+
+                </include>
+            </run>
+        </groups>
+        <classes>
+            <class name="sda.test.day16.C02XMLFileGroups">
+
+            </class>
+        </classes>
+    </test>
+
+</suite>
