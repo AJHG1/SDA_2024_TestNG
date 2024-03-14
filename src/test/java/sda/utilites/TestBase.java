@@ -33,12 +33,11 @@ public class TestBase {
 
     @AfterMethod
     public void afterMethod() {
-        if (driver != null) {
-
-            driver.quit();
-            driver = null;
+//        if (driver != null) {
+//
+//            driver.quit();
+//            driver = null;
         }
 
 
     }
-}
