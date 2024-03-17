@@ -3,15 +3,12 @@
 <suite name="All Tests Suite">
 
     <test name="Chrome Browser Test">
-        <parameter name="Browser" value="Chrome">
-        </parameter>
+        <parameter name="Browser" value="Chrome"></parameter>
         <classes>
             <class name="sda.test.day17.C05CrossBrowserTasting">
                 <methods>
-                    <include name="test1">
-                    </include>
-                    <include name="test2">
-                    </include>
+                    <include name="test1"></include>
+                    <include name="test2"></include>
                 </methods>
             </class>
 
@@ -24,21 +21,10 @@
         <classes>
             <class name="sda.test.day17.C05CrossBrowserTasting">
                 <methods>
-
-                    <include name="test4">
-                    </include>
-                </methods>
-            </class>
-            <test name="dge Browser Test">
-            <parameter name="Browser" value="FireFox">
-            </parameter>
-            <class name="sda.test.day17.C05CrossBrowserTasting">
-                <methods>
-                    <include name="test3">
-                    </include>
+                    <include name="test3"></include>
+                    <include name="test4"></include>
                 </methods>
             </class>
         </classes>
-
     </test>
 </suite>
