@@ -38,6 +38,7 @@ public class HW2 extends TestBase {
 
 //    Click Submit button.
         driver.findElement(By.id("submit")).click();
+
 //            Verify new page URL contains practicetestautomation.com/logged-in-successfully/
         String newpage = driver.getCurrentUrl();
         System.out.println("the url =  "+newpage);
