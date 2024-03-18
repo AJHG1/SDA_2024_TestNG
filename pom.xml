@@ -61,7 +61,7 @@
                     </suiteXmlFiles>
                     -->
                     <includes>
-                        <include>sda/tests/day18/C02ParallelTest02.java</include>
+                        <include>sda/tests/day18/C02PartelleTest02.java</include>
                     </includes>
                 </configuration>
             </plugin>
