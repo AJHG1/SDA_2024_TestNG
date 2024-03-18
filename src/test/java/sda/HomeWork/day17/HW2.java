@@ -25,10 +25,11 @@ public class HW2 extends TestBase {
 
 
     @Test
-    public void test() throws InterruptedException {
+    public void test1() throws InterruptedException {
 
         //    Go to URL: http://crossbrowsertesting.github.io/todoapp.html
         driver.get("https://vziad3.github.io/todo-app/todo-app.html");
+
 
         List<WebElement> box = driver.findElements(By.xpath("//*[@class='done-false']"));
         System.out.println("box.size() = " + box.size());
@@ -51,7 +52,8 @@ public class HW2 extends TestBase {
         add.click();
         add.sendKeys("Abdulaziz" + Keys.ENTER);
         Assert.assertTrue(add.isDisplayed());
-//    Archiving old todos
+
+        //    Archiving old todos
         WebElement archiving = driver.findElement(By.xpath("//*[@ng-click='todoList.archive()']"));
         archiving.click();
 
