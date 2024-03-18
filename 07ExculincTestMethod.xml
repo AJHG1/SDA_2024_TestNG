@@ -11,7 +11,7 @@
         <classes>
             <class name="sda.test.day16.C02XMLFileGroups">
 
-<!--                this method tag for not exeute method by the name-->
+                <!--                this method tag for not exeute method by the name-->
                 <methods>
                     <exclude name="test7"/>
                 </methods>

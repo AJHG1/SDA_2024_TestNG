@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 
 import java.time.Duration;
 
-public class C04ParallelTestDataProvider  {
+public class C04ParallelTestDataProvider {
     By userNameFiled = By.name("username");
     By passwordName = By.name("password");
     By buttonTag = By.tagName("button");
@@ -38,7 +38,7 @@ public class C04ParallelTestDataProvider  {
     }
 
 
-    @DataProvider(name = "invalidCredentials",parallel = true)
+    @DataProvider(name = "invalidCredentials", parallel = true)
     public Object[][] getData() {
         return new Object[][]{
                 {"adm", "admin23*"},

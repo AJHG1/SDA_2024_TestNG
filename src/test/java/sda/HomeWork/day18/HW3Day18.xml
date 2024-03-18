@@ -2,10 +2,10 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
 
-<!--    //    Day18HW:3-->
-<!--Execute C04DependsOnMethods class, HardAssertionHomework and SoftAssertionHomework in parallel-->
-<!--(If you find problem with class names you can select any three classes from your project)-->
-<!--Thread num should be 3 and execution  should be done in "class" level-->
+    <!--    //    Day18HW:3-->
+    <!--Execute C04DependsOnMethods class, HardAssertionHomework and SoftAssertionHomework in parallel-->
+    <!--(If you find problem with class names you can select any three classes from your project)-->
+    <!--Thread num should be 3 and execution  should be done in "class" level-->
     <test name="Test 1">
 
         <classes>

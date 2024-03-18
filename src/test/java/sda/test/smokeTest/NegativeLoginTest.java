@@ -10,7 +10,7 @@ import sda.utilites.TestBase;
 public class NegativeLoginTest extends TestBase {
 
     @Test
-    public void test(){
+    public void test() {
 
         driver.get("https://practicetestautomation.com/practice-test-login/");
 
@@ -22,10 +22,10 @@ public class NegativeLoginTest extends TestBase {
 
         String expectedErrorsMes = "Your password is invalid";
         WebElement expectedErrors = driver.findElement(By.id("error"));
-    softAssert.assertTrue(expectedErrors.isDisplayed());
-    softAssert.assertEquals(expectedErrors.getText(),expectedErrorsMes);
+        softAssert.assertTrue(expectedErrors.isDisplayed());
+        softAssert.assertEquals(expectedErrors.getText(), expectedErrorsMes);
 
-    softAssert.assertAll();
+        softAssert.assertAll();
 
     }
 }

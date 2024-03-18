@@ -3,16 +3,16 @@
 <suite name="All Test Suite">
 
     <test name="Test 1">
-    <parameter name="kayword" value="Java">
+        <parameter name="kayword" value="Java">
 
-    </parameter>
+        </parameter>
         <classes>
             <class name="sda.HomeWork.day16.HW1">
-            <methods>
-                <include name="test1">
+                <methods>
+                    <include name="test1">
 
-                </include>
-            </methods>
+                    </include>
+                </methods>
             </class>
 
         </classes>
@@ -25,11 +25,11 @@
 
         <classes>
             <class name="sda.HomeWork.day16.HW1">
-        <methods>
-            <include name="test2">
+                <methods>
+                    <include name="test2">
 
-            </include>
-        </methods>
+                    </include>
+                </methods>
             </class>
         </classes>
     </test>

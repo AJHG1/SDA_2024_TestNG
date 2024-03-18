@@ -10,10 +10,10 @@ public class C04DataProviderFromAnotherClass extends TestBase {
         data provider method as a parameter into the test method.
         */
 
-    @Test(dataProvider = "invalidCoredentials",dataProviderClass = C03FakerDataProvider03.class)
-    public void pintCrodentialsTest(String username , String password){
+    @Test(dataProvider = "invalidCoredentials", dataProviderClass = C03FakerDataProvider03.class)
+    public void pintCrodentialsTest(String username, String password) {
 
-        System.out.println("username : " + username + " password : "  + password);
+        System.out.println("username : " + username + " password : " + password);
 
     }
 }

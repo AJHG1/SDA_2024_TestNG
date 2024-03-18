@@ -10,7 +10,7 @@ public class PositiveLoginTest extends TestBase {
 
 
     @Test
-    public void test(){
+    public void test() {
 
         driver.get("https://practicetestautomation.com/practice-test-login/");
 
@@ -20,16 +20,16 @@ public class PositiveLoginTest extends TestBase {
 
         String expectadURL = "https://practicetestautomation.com/logged-in-successfully/";
         String actuaUrl = driver.getCurrentUrl();
-        Assert.assertEquals(actuaUrl,expectadURL,"Actusl psgr url is not the same expected");
+        Assert.assertEquals(actuaUrl, expectadURL, "Actusl psgr url is not the same expected");
 
         WebElement successMassage = driver.findElement(By.tagName("strong"));
         String exectedMassage = "Congratulations student. you successfully loggod in!";
         String actualMassage = successMassage.getText();
 
-        Assert.assertTrue(actualMassage.contains(exectedMassage),"Actual Massage dose not contain expected. Actual Massage :  " + actualMassage);
+        Assert.assertTrue(actualMassage.contains(exectedMassage), "Actual Massage dose not contain expected. Actual Massage :  " + actualMassage);
 
-   WebElement logoutButton = driver.findElement(By.linkText("log out"));
-   Assert.assertTrue(logoutButton.isDisplayed(),"log out button is not visible");
+        WebElement logoutButton = driver.findElement(By.linkText("log out"));
+        Assert.assertTrue(logoutButton.isDisplayed(), "log out button is not visible");
 
     }
 }

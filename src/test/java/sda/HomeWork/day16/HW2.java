@@ -41,7 +41,7 @@ public class HW2 extends TestBase {
 
 //            Verify new page URL contains practicetestautomation.com/logged-in-successfully/
         String newpage = driver.getCurrentUrl();
-        System.out.println("the url =  "+newpage);
+        System.out.println("the url =  " + newpage);
         Assert.assertTrue(newpage.contains("practicetestautomation.com/logged-in-successfully/"));
 //    You should execute this test with xml file
 
