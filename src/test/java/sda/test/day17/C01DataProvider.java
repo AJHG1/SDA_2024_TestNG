@@ -31,11 +31,12 @@ public class C01DataProvider extends TestBase {
     }
 
     @DataProvider
-    public Object[][] getData(){
-        Object[][] data = {{"Java"},{"Javascript"},{"Phyton"}};
+    public Object[][] getData() {
+        Object[][] data = {{"Java"}, {"Javascript"}, {"Phyton"}};
         return data;
     }
-//    ---------------------------------------------------------------
+
+    //    ---------------------------------------------------------------
     @Test(dataProvider = "Aseel")
     public void searchTest2(String seachKey) {
         driver.get("https://www.ebay.com");
@@ -44,8 +45,8 @@ public class C01DataProvider extends TestBase {
     }
 
     @DataProvider(name = "Aseel")
-    public Object[][] getData2(){
-        Object[][] data = {{"Iphone"},{"Android"},{"Laptop"}};
+    public Object[][] getData2() {
+        Object[][] data = {{"Iphone"}, {"Android"}, {"Laptop"}};
         return data;
     }
 
@@ -56,17 +57,21 @@ public class C01DataProvider extends TestBase {
         WebElement searchBox = driver.findElement(searchBoxId);
         searchBox.sendKeys(seachKey, Keys.ENTER);
     }
-//-------------------------------------------------------------------------------
+
+    //-------------------------------------------------------------------------------
     @DataProvider
-    public Object[][] getData3(){
+    public Object[][] getData3() {
         return new Object[][]{
                 {"Iphone"}
-                ,{"Android"}
-                ,{"Laptop"}
+                , {"Android"}
+                , {"Laptop"}
         };
 
-    };
-// ------------------------------------------------------------------------------------
+    }
+
+    ;
+
+    // ------------------------------------------------------------------------------------
     @DataProvider
     public Object[][] getData4() {
         Object[][] data = new Object[3][1];

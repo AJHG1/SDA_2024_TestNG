@@ -3,9 +3,9 @@
 <suite name="All Test Suite">
 
     <test name="Test by pakage">
-    <parameter name="name" value="abdulah"/>
-    <parameter name="surname" value="GH"/>
-    <parameter name="age" value="22"/>
+        <parameter name="name" value="abdulah"/>
+        <parameter name="surname" value="GH"/>
+        <parameter name="age" value="22"/>
         <classes>
             <class name="sda.test.day16.C03UsingParameters">
             </class>
