@@ -19,6 +19,8 @@ public class C02ExtendReport02 extends TestBase {
     By userNameFiled = By.name("username");
     By passwordName = By.name("password");
     By buttonTag = By.tagName("button");
+
+
     By textByXpath = By.xpath("//*[.='Invalid credentials']");
 
     @Test(dataProvider = "invalidCredentials")
