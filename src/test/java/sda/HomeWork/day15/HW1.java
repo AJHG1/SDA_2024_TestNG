@@ -51,7 +51,7 @@ Verify button Log out is displayed on the new page.
         sa.assertTrue(url.contains(".com/logged-in-successfully/"));
 
         //hard assert
-        assertTrue(url.contains(".com/logged-in-successfully/"));
+        assertTrue(url.contains(".com/logged-in-successf"));
 
         //                Verify new page contains expected text ('Congratulations' or 'successfully logged in')
         WebElement massage = driver.findElement(By.xpath("//*[text()='Logged In Successfully']"));

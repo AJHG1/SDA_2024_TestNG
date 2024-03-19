@@ -12,9 +12,9 @@
 
             <class name="sda.test.day15.C04DependsOnMethods">
             </class>
-            <class name="sda.HomeWork.day15.HW1">
+            <class name="sda.test.day17.C05CrossBrowserTasting">
             </class>
-            <class name="sda.HomeWork.day15.HW2">
+            <class name="sda.test.day17.C03FakerDataProvider03">
             </class>
 
         </classes>
