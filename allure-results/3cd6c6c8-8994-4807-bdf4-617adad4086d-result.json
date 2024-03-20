@@ -1,1 +1,63 @@
-{"uuid":"3cd6c6c8-8994-4807-bdf4-617adad4086d","historyId":"4234029939ee8ae5871e86ee58ece1a7","fullName":"sda.test.day19.C04AllureTest02.test03","labels":[{"name":"package","value":"sda.test.day19.C04AllureTest02"},{"name":"testClass","value":"sda.test.day19.C04AllureTest02"},{"name":"testMethod","value":"test03"},{"name":"parentSuite","value":"Surefire suite"},{"name":"suite","value":"Surefire test"},{"name":"subSuite","value":"sda.test.day19.C04AllureTest02"},{"name":"host","value":"DESKTOP-TVVT5CH"},{"name":"thread","value":"40824@DESKTOP-TVVT5CH.main(1)"},{"name":"framework","value":"testng"},{"name":"language","value":"java"}],"links":[],"name":"test03","status":"broken","statusDetails":{"known":false,"muted":false,"flaky":false,"message":"Method sda.test.day19.C04AllureTest02.test03() didn't finish within the time-out 1000","trace":"org.testng.internal.thread.ThreadTimeoutException: Method sda.test.day19.C04AllureTest02.test03() didn't finish within the time-out 1000\r\n\tat java.base/java.lang.Thread.sleep0(Native Method)\r\n\tat java.base/java.lang.Thread.sleep(Thread.java:509)\r\n\tat sda.test.day19.C04AllureTest02.test03(C04AllureTest02.java:25)\r\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:580)\r\n\tat org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)\r\n\tat org.testng.internal.invokers.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:47)\r\n\tat org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:76)\r\n\tat org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:11)\r\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)\r\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)\r\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)\r\n\tat java.base/java.lang.Thread.run(Thread.java:1583)\r\n"},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1710838030746,"stop":1710838031758}
+{
+  "uuid": "3cd6c6c8-8994-4807-bdf4-617adad4086d",
+  "historyId": "4234029939ee8ae5871e86ee58ece1a7",
+  "fullName": "sda.test.day19.C04AllureTest02.test03",
+  "labels": [
+    {
+      "name": "package",
+      "value": "sda.test.day19.C04AllureTest02"
+    },
+    {
+      "name": "testClass",
+      "value": "sda.test.day19.C04AllureTest02"
+    },
+    {
+      "name": "testMethod",
+      "value": "test03"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Surefire suite"
+    },
+    {
+      "name": "suite",
+      "value": "Surefire test"
+    },
+    {
+      "name": "subSuite",
+      "value": "sda.test.day19.C04AllureTest02"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-TVVT5CH"
+    },
+    {
+      "name": "thread",
+      "value": "40824@DESKTOP-TVVT5CH.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    }
+  ],
+  "links": [],
+  "name": "test03",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Method sda.test.day19.C04AllureTest02.test03() didn't finish within the time-out 1000",
+    "trace": "org.testng.internal.thread.ThreadTimeoutException: Method sda.test.day19.C04AllureTest02.test03() didn't finish within the time-out 1000\r\n\tat java.base/java.lang.Thread.sleep0(Native Method)\r\n\tat java.base/java.lang.Thread.sleep(Thread.java:509)\r\n\tat sda.test.day19.C04AllureTest02.test03(C04AllureTest02.java:25)\r\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:580)\r\n\tat org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)\r\n\tat org.testng.internal.invokers.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:47)\r\n\tat org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:76)\r\n\tat org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:11)\r\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)\r\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)\r\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)\r\n\tat java.base/java.lang.Thread.run(Thread.java:1583)\r\n"
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1710838030746,
+  "stop": 1710838031758
+}

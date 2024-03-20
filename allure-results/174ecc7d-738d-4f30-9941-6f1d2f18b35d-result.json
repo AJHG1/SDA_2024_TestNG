@@ -1,0 +1,61 @@
+{
+  "uuid": "174ecc7d-738d-4f30-9941-6f1d2f18b35d",
+  "historyId": "3532de449516176adb3da31a2ff01dda",
+  "fullName": "sda.test.day20.C01Listeners01.timeoutTest",
+  "labels": [
+    {
+      "name": "package",
+      "value": "sda.test.day20.C01Listeners01"
+    },
+    {
+      "name": "testClass",
+      "value": "sda.test.day20.C01Listeners01"
+    },
+    {
+      "name": "testMethod",
+      "value": "timeoutTest"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Default Suite"
+    },
+    {
+      "name": "suite",
+      "value": "SDA_2024_TestNg"
+    },
+    {
+      "name": "subSuite",
+      "value": "sda.test.day20.C01Listeners01"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-TVVT5CH"
+    },
+    {
+      "name": "thread",
+      "value": "3952@DESKTOP-TVVT5CH.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    }
+  ],
+  "links": [],
+  "name": "timeoutTest",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1710917236736,
+  "stop": 1710917236744
+}

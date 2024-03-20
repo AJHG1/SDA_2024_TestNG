@@ -1,0 +1,24 @@
+{
+  "uuid": "4c94a08e-1d25-4efe-a59d-0b6b76843855",
+  "name": "sda.utilites.TestBaseExtendReport.setup",
+  "children": [
+    "6e0d5c69-65b7-4618-8825-3ca34778b9f2"
+  ],
+  "description": "",
+  "befores": [
+    {
+      "name": "setup",
+      "status": "broken",
+      "stage": "finished",
+      "description": "",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1710920664874,
+      "stop": 1710920664874
+    }
+  ],
+  "afters": [],
+  "start": 1710920664873,
+  "stop": 1710920664874
+}

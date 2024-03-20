@@ -1,1 +1,61 @@
-{"uuid":"3b3e2bf4-a8d7-45c9-bfd2-941bcab048d7","historyId":"bb3ee4e72f60262d98265f5a7d72cfed","fullName":"sda.test.day19.C03AllureTest01.negativeUserNameTestSoft","labels":[{"name":"package","value":"sda.test.day19.C03AllureTest01"},{"name":"testClass","value":"sda.test.day19.C03AllureTest01"},{"name":"testMethod","value":"negativeUserNameTestSoft"},{"name":"parentSuite","value":"Surefire suite"},{"name":"suite","value":"Surefire test"},{"name":"subSuite","value":"sda.test.day19.C03AllureTest01"},{"name":"host","value":"DESKTOP-TVVT5CH"},{"name":"thread","value":"25256@DESKTOP-TVVT5CH.main(1)"},{"name":"framework","value":"testng"},{"name":"language","value":"java"}],"links":[],"name":"negativeUserNameTestSoft","status":"passed","statusDetails":{"known":false,"muted":false,"flaky":false},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1710837656177,"stop":1710837659653}
+{
+  "uuid": "3b3e2bf4-a8d7-45c9-bfd2-941bcab048d7",
+  "historyId": "bb3ee4e72f60262d98265f5a7d72cfed",
+  "fullName": "sda.test.day19.C03AllureTest01.negativeUserNameTestSoft",
+  "labels": [
+    {
+      "name": "package",
+      "value": "sda.test.day19.C03AllureTest01"
+    },
+    {
+      "name": "testClass",
+      "value": "sda.test.day19.C03AllureTest01"
+    },
+    {
+      "name": "testMethod",
+      "value": "negativeUserNameTestSoft"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Surefire suite"
+    },
+    {
+      "name": "suite",
+      "value": "Surefire test"
+    },
+    {
+      "name": "subSuite",
+      "value": "sda.test.day19.C03AllureTest01"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-TVVT5CH"
+    },
+    {
+      "name": "thread",
+      "value": "25256@DESKTOP-TVVT5CH.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    }
+  ],
+  "links": [],
+  "name": "negativeUserNameTestSoft",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1710837656177,
+  "stop": 1710837659653
+}

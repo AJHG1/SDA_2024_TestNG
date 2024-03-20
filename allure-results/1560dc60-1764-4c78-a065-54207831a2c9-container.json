@@ -1,0 +1,12 @@
+{
+  "uuid": "1560dc60-1764-4c78-a065-54207831a2c9",
+  "name": "All Test Suite",
+  "children": [
+    "5ceacef8-0c24-44f7-ab36-2e4a90b32d44",
+    "85e2263a-97de-4ca2-8d7f-77212df00319"
+  ],
+  "befores": [],
+  "afters": [],
+  "start": 1710921268462,
+  "stop": 1710921269240
+}

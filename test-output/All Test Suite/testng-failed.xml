@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="sda.utilites.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="C02Listeners02(failed)">
+    <classes>
+      <class name="sda.test.day20.C02Listeners02">
+        <methods>
+          <include name="timeoutTest"/>
+          <include name="successfulTest"/>
+          <include name="setup"/>
+          <include name="setupClass"/>
+          <include name="afterClass"/>
+          <include name="teardown"/>
+          <include name="skippedTest"/>
+          <include name="successfulTestWithPercentage"/>
+          <include name="failedTest"/>
+          <include name="successTest"/>
+        </methods>
+      </class> <!-- sda.test.day20.C02Listeners02 -->
+    </classes>
+  </test> <!-- C02Listeners02(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

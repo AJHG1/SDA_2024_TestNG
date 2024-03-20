@@ -1,0 +1,24 @@
+{
+  "uuid": "5045d3f4-af1c-403a-9eda-d1127602cbea",
+  "name": "sda.utilites.TestBaseExtendReport.teardown",
+  "children": [
+    "fc85b898-5e07-4641-b21f-87cf70535164"
+  ],
+  "description": "",
+  "befores": [],
+  "afters": [
+    {
+      "name": "teardown",
+      "status": "broken",
+      "stage": "finished",
+      "description": "",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1710921268982,
+      "stop": 1710921268982
+    }
+  ],
+  "start": 1710921268981,
+  "stop": 1710921268982
+}
