@@ -62,7 +62,7 @@ public class TestBaseExtendReport {
     @AfterMethod
     public void teardown() {
         driver.quit();
-        // extentReports.flush();
+        extentReports.flush();
     }
 
     @AfterClass

@@ -8,7 +8,13 @@ import java.lang.reflect.Method;
 
 public class Listeners implements ITestListener, IRetryAnalyzer, IAnnotationTransformer {
 
+
     // Overrides the onFinish method from the ITestListener interface
+
+    @Override public void onStart(ITestContext context){
+
+
+    }
     @Override
     public void onFinish(ITestContext context) {
         // Prints a message indicating that the test execution has ended

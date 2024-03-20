@@ -49,7 +49,7 @@ public class C01Listeners01 {
     }
 
 
-    @Test(successPercentage = 80)
+    @Test
     public void successfulTestWithPercentage() {
         // Asserts multiple conditions to meet the success percentage threshold
         Assert.assertEquals(1, 1);

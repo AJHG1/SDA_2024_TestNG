@@ -6,8 +6,7 @@
         <listener class-name="sda.utilites.Listeners">
         </listener>
     </listeners>
-    <test verbose="2" preserve-order="true"
-          name="C02Listeners02">
+    <test verbose="2" preserve-order="true" name="C02Listeners02">
 
         <classes>
             <class name="sda.test.day20.C02Listeners02">
