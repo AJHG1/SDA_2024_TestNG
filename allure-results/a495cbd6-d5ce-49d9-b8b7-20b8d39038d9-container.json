@@ -1,1 +1,13 @@
-{"uuid":"a495cbd6-d5ce-49d9-b8b7-20b8d39038d9","name":"SDA_2024_TestNg","children":["a40a605d-fb3f-4514-b55c-357f6b444357","63dafd38-91fc-45ba-bfe5-46fa5c66a49e","cef43241-acf5-40bb-956b-07f9e77caeef"],"befores":[],"afters":[],"start":1710923450706,"stop":1710923451239}
+{
+  "uuid": "a495cbd6-d5ce-49d9-b8b7-20b8d39038d9",
+  "name": "SDA_2024_TestNg",
+  "children": [
+    "a40a605d-fb3f-4514-b55c-357f6b444357",
+    "63dafd38-91fc-45ba-bfe5-46fa5c66a49e",
+    "cef43241-acf5-40bb-956b-07f9e77caeef"
+  ],
+  "befores": [],
+  "afters": [],
+  "start": 1710923450706,
+  "stop": 1710923451239
+}

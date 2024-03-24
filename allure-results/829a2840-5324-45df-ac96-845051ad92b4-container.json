@@ -1,1 +1,24 @@
-{"uuid":"829a2840-5324-45df-ac96-845051ad92b4","name":"sda.utilites.TestBaseExtendReport.setup","children":["a2774ce7-38f7-4502-9b3a-0830016b1d59"],"description":"","befores":[{"name":"setup","status":"broken","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1710923484936,"stop":1710923484936}],"afters":[],"start":1710923484936,"stop":1710923484936}
+{
+  "uuid": "829a2840-5324-45df-ac96-845051ad92b4",
+  "name": "sda.utilites.TestBaseExtendReport.setup",
+  "children": [
+    "a2774ce7-38f7-4502-9b3a-0830016b1d59"
+  ],
+  "description": "",
+  "befores": [
+    {
+      "name": "setup",
+      "status": "broken",
+      "stage": "finished",
+      "description": "",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1710923484936,
+      "stop": 1710923484936
+    }
+  ],
+  "afters": [],
+  "start": 1710923484936,
+  "stop": 1710923484936
+}

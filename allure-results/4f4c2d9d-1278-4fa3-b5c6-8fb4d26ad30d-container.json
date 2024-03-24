@@ -1,1 +1,12 @@
-{"uuid":"4f4c2d9d-1278-4fa3-b5c6-8fb4d26ad30d","name":"Failed suite [Default Suite]","children":["749cd632-c2c4-4f24-ad3b-5095df0359d3","1d0667f9-00d5-4067-bc45-955ddb3aa500"],"befores":[],"afters":[],"start":1710923691356,"stop":1710923691985}
+{
+  "uuid": "4f4c2d9d-1278-4fa3-b5c6-8fb4d26ad30d",
+  "name": "Failed suite [Default Suite]",
+  "children": [
+    "749cd632-c2c4-4f24-ad3b-5095df0359d3",
+    "1d0667f9-00d5-4067-bc45-955ddb3aa500"
+  ],
+  "befores": [],
+  "afters": [],
+  "start": 1710923691356,
+  "stop": 1710923691985
+}

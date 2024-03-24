@@ -11,10 +11,12 @@ public class Listeners implements ITestListener, IRetryAnalyzer, IAnnotationTran
 
     // Overrides the onFinish method from the ITestListener interface
 
-    @Override public void onStart(ITestContext context){
+    @Override
+    public void onStart(ITestContext context) {
 
 
     }
+
     @Override
     public void onFinish(ITestContext context) {
         // Prints a message indicating that the test execution has ended

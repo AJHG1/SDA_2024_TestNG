@@ -1,1 +1,61 @@
-{"uuid":"3941e148-5de3-49da-b651-cbead3be2f6f","historyId":"2e226c25d91cf2a08838c5b6162f14e1","fullName":"sda.test.day20.C01Listeners01.successfulTest","labels":[{"name":"package","value":"sda.test.day20.C01Listeners01"},{"name":"testClass","value":"sda.test.day20.C01Listeners01"},{"name":"testMethod","value":"successfulTest"},{"name":"parentSuite","value":"Default Suite"},{"name":"suite","value":"SDA_2024_TestNg"},{"name":"subSuite","value":"sda.test.day20.C01Listeners01"},{"name":"host","value":"DESKTOP-TVVT5CH"},{"name":"thread","value":"13176@DESKTOP-TVVT5CH.main(1)"},{"name":"framework","value":"testng"},{"name":"language","value":"java"}],"links":[],"name":"successfulTest","status":"passed","statusDetails":{"known":false,"muted":false,"flaky":false},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1710929552329,"stop":1710929552331}
+{
+  "uuid": "3941e148-5de3-49da-b651-cbead3be2f6f",
+  "historyId": "2e226c25d91cf2a08838c5b6162f14e1",
+  "fullName": "sda.test.day20.C01Listeners01.successfulTest",
+  "labels": [
+    {
+      "name": "package",
+      "value": "sda.test.day20.C01Listeners01"
+    },
+    {
+      "name": "testClass",
+      "value": "sda.test.day20.C01Listeners01"
+    },
+    {
+      "name": "testMethod",
+      "value": "successfulTest"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Default Suite"
+    },
+    {
+      "name": "suite",
+      "value": "SDA_2024_TestNg"
+    },
+    {
+      "name": "subSuite",
+      "value": "sda.test.day20.C01Listeners01"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-TVVT5CH"
+    },
+    {
+      "name": "thread",
+      "value": "13176@DESKTOP-TVVT5CH.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    }
+  ],
+  "links": [],
+  "name": "successfulTest",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1710929552329,
+  "stop": 1710929552331
+}

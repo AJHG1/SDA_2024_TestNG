@@ -1,1 +1,24 @@
-{"uuid":"742a503f-519f-4228-9278-e331461ea12b","name":"sda.utilites.TestBaseExtendReport.teardown","children":["a2774ce7-38f7-4502-9b3a-0830016b1d59"],"description":"","befores":[],"afters":[{"name":"teardown","status":"broken","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1710923484948,"stop":1710923484948}],"start":1710923484948,"stop":1710923484948}
+{
+  "uuid": "742a503f-519f-4228-9278-e331461ea12b",
+  "name": "sda.utilites.TestBaseExtendReport.teardown",
+  "children": [
+    "a2774ce7-38f7-4502-9b3a-0830016b1d59"
+  ],
+  "description": "",
+  "befores": [],
+  "afters": [
+    {
+      "name": "teardown",
+      "status": "broken",
+      "stage": "finished",
+      "description": "",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1710923484948,
+      "stop": 1710923484948
+    }
+  ],
+  "start": 1710923484948,
+  "stop": 1710923484948
+}
